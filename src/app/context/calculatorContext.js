@@ -16,7 +16,7 @@ const ACTIONS = {
 };
 
 // Reducer function
-function calculatorReducer(state, action) {
+function CalculatorReducer(state, action) {
   switch (action.type) {
     case ACTIONS.SET_INPUT_NUMBER:
       return {
@@ -40,7 +40,7 @@ const CalculatorContext = createContext();
 
 // Provider component
 export function CalculatorProvider({ children }) {
-  const [state, dispatch] = useReducer(calculatorReducer, initialState);
+  const [state, dispatch] = useReducer(CalculatorReducer, initialState);
 
   const value = {
     state,
