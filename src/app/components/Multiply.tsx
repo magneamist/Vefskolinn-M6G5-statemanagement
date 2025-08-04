@@ -1,6 +1,6 @@
 "use client";
 
-import { useCalculator } from "../context/CalculatorContext";
+import { useCalculator } from "@/app/context/CalculatorContext";
 import { Asterisk } from "lucide-react";
 
 export default function Multiply() {
