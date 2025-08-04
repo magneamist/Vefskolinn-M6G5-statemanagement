@@ -13,9 +13,12 @@ export default function Home() {
     <CalculatorProvider>
       <div className="min-h-screen bg-gray-100 py-8">
         <div className="max-w-4xl mx-auto px-4">
-          <h1 className="text-3xl font-bold text-gray-800 mb-8">
-            React Context Calculator
-          </h1>
+          <div className="flex flex-col gap-2 mb-8">
+            <h1 className="text-3xl font-bold text-gray-800">
+              Calculator
+            </h1>
+            <p>State management using React Context</p>
+          </div>
 
           {/* Input Section */}
           <div className="bg-white rounded-lg shadow-md p-6 mb-8">
