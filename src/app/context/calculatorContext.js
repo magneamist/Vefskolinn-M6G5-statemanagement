@@ -1,11 +1,10 @@
-// app/context/CalculatorContext.js
 'use client';
 
 import { createContext, useContext, useReducer } from 'react';
 
 // Initial state
 const initialState = {
-  inputNumber: 0,
+  inputNumber: 1,
   baseNumber: 10
 };
 
