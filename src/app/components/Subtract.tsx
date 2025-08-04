@@ -1,6 +1,6 @@
 "use client";
 
-import { useCalculator } from "@/app/context/CalculatorContext";
+import { useCalculator } from "@/app/context/calculatorContext";
 import { Minus } from "lucide-react";
 
 export default function Subtract() {

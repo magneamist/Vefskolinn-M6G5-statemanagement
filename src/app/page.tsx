@@ -1,7 +1,7 @@
 // app/page.js (or pages/index.js if using Pages Router)
 "use client"; // Add this if using App Router
 
-import { CalculatorProvider } from "./context/CalculatorContext";
+import { CalculatorProvider } from "./context/calculatorContext";
 import NumberInput from "./components/NumberInput";
 import Add from "./components/Add";
 import Subtract from "./components/Subtract";

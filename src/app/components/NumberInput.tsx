@@ -1,7 +1,7 @@
 "use client";
 
 import { ChangeEvent } from "react";
-import { useCalculator } from "@/app/context/CalculatorContext";
+import { useCalculator } from "@/app/context/calculatorContext";
 
 export default function NumberInput() {
   const { state, dispatch, ACTIONS } = useCalculator();

@@ -1,6 +1,6 @@
 "use client";
 
-import { useCalculator } from "@/app/context/CalculatorContext";
+import { useCalculator } from "@/app/context/calculatorContext";
 import { Plus } from "lucide-react";
 
 export default function Add() {
